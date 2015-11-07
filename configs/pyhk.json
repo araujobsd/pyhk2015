@@ -1,0 +1,14 @@
+{
+    "comment": "This is the first test",
+    "tip": "How many files on my /etc",
+    "pyhk_install": "/tmp/pyhk/",
+    "pyhk_exec": "scripts/scripts.tar",
+    "pyhk_cmd": "sh run.sh",
+    "ping_cmd": "bash ping-csv.sh --add-timestamp example.com >/tmp/pyhk/ping-output.csv",
+    "tcp_server_cmd": "python server.py &",
+    "tcp_client_cmd": "python client.py >connection.log",
+    "show_all_interations":true,
+    "verify_after_each_test":true,
+    "pyhk_hostname1": "10.0.1.22",
+    "pyhk_hostname2": "10.0.1.12"
+}
